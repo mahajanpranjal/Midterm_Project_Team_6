@@ -1,0 +1,2255 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\rupes\Downloads\Dallas_2021-2022.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas_2021-2022.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Inspection Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Inspection Date" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Inspection Score" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Street Number" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Street Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Street Direction" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Street Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Street Unit" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Street Address" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Zip Code" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Points - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Detail - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Inspection Month" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Inspection Year" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="Lat Long Location" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2021-2022.tsv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\rupes\Downloads\Dallas_2022-2023.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas_2022-2023.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Inspection Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Inspection Date" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Inspection Score" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Street Number" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Street Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Street Direction" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Street Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Street Unit" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Street Address" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Zip Code" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Points - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Detail - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Inspection Month" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Inspection Year" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="Lat Long Location" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2022-2023.tsv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\rupes\Downloads\Dallas_2023-2024.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas_2023-2024.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Inspection Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Inspection Date" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Inspection Score" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Street Number" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Street Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Street Direction" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Street Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Street Unit" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Street Address" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Zip Code" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Points - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Detail - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Inspection Month" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Inspection Year" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="Lat Long Location" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2023-2024.tsv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\rupes\Downloads\Dallas_2024-2025.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas_2024-2025.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Date" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Score" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Street Number" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Street Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Street Direction" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Street Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Street Unit" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Street Address" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Zip Code" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Points - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Detail - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Month" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Year" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="Lat Long Location" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2024-2025.tsv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas_2025-partyear.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Inspection Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Inspection Date" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Inspection Score" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Street Number" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Street Name" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Street Direction" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Street Type" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Street Unit" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Street Address" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Zip Code" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 1" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Points - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Detail - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Inspection Month" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Inspection Year" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="Lat Long Location" size="1000000" source="File: C:\Users\rupes\Downloads\Dallas_2025-partyear.tsv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="246" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_3d67b5db7bfc41a593653f234ff60b56~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1194" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_22c4c80fcadd43ba8cad3db2891d72c6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="798" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation_Description</Field>
+          <RegExExpression value="^\*?(\d+)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation_Description</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Violation_Code" type="V_WString" size="1073741823" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="894" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation_Description</Field>
+          <RegExExpression value="^\*?\d+\s*" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation_Description</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="438" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+            <Field field="FileName" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Restaurant Name" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Score" selected="False" />
+            <Field field="Street Number" selected="False" />
+            <Field field="Street Name" selected="False" />
+            <Field field="Street Direction" selected="False" />
+            <Field field="Street Type" selected="False" />
+            <Field field="Street Unit" selected="False" />
+            <Field field="Street Address" selected="False" />
+            <Field field="Zip Code" selected="False" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="False" />
+            <Field field="Inspection Year" selected="False" />
+            <Field field="Lat Long Location" selected="False" />
+            <Field field="FileName" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(&#xA;    REGEX_Replace([Name], &quot;.*- (\d+)$&quot;, &quot;$1&quot;)&#xA;)" field="number" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Trim(&#xA;  ReplaceChar(&#xA;    REGEX_Replace(&#xA;      REGEX_Replace([Name], &quot; - \d+$&quot;, &quot;&quot;),&#xA;      &quot;  +&quot;, &quot; &quot;&#xA;    ),&#xA;    &quot;_&quot;, &quot; &quot;&#xA;  )&#xA;)" field="field_type" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="REGEX_Replace([Zip code], &quot;\.0$&quot;, &quot;&quot;)" field="Zip Code" size="1000000" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>number = ToNumber(
+    REGEX_Replace([Name], ".*- (\d+)$", "$1")
+)
+field_type = ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="702" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+            <Field field="FileName" />
+            <Field field="number" />
+          </GroupFields>
+          <HeaderField field="field_type" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Inspection Type" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Inspection Date" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Inspection Score" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Number" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Name" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Direction" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Type" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Unit" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Address" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Zip Code" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Inspection Month" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Inspection Year" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Lat Long Location" size="1000000" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="FileName" size="254" source="CrossTab:Group:First:" type="V_WString" />
+            <Field name="number" size="1073741823" source="CrossTab:Group:First:" type="V_WString" />
+            <Field name="Violation_Description" size="1000000" source="CrossTab:Header:field_type:Violation Description:First:" type="V_String" />
+            <Field name="Violation_Detail" size="1000000" source="CrossTab:Header:field_type:Violation Detail:First:" type="V_String" />
+            <Field name="Violation_Memo" size="1000000" source="CrossTab:Header:field_type:Violation Memo:First:" type="V_String" />
+            <Field name="Violation_Points" size="1000000" source="CrossTab:Header:field_type:Violation Points:First:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_5457cc9215334eb5a3eceac97ca5cb03~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="678" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF (IsNull([Violation_Detail]) OR Trim([Violation_Detail]) = &quot;&quot;) AND&#xA;   (IsNull([Violation_Memo]) OR Trim([Violation_Memo]) = &quot;&quot;)&#xA;THEN &quot;&quot;&#xA;&#xA;ELSEIF (IsNull([Violation_Memo]) OR Trim([Violation_Memo]) = &quot;&quot;)&#xA;THEN Trim([Violation_Detail])&#xA;&#xA;ELSEIF (IsNull([Violation_Detail]) OR Trim([Violation_Detail]) = &quot;&quot;)&#xA;THEN Trim([Violation_Memo])&#xA;&#xA;ELSE Trim([Violation_Detail]) + &quot; &quot; + Trim([Violation_Memo])&#xA;ENDIF" field="Violation_Comments" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Violation_Comments = IF (IsNull([Violation_Detail]) OR Trim([Violation_Detail]) ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([Temp_ID]) + &quot;_dallas&quot;" field="Inspection_ID" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeParse([Inspection Date], &quot;%Y-%m-%d&quot;)" field="Date_1" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeYear([Date_1])" field="Inspection_Year" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeMonth([Date_1])" field="Inspction_Month" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeQuarter([Date_1])" field="Insspection_Quarter" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IF IsNull([Inspection Score]) THEN &quot;UNKNOWN&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &gt;= 90 THEN &quot;PASS&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &gt;= 70 THEN &quot;PASS_CONDITIONS&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &lt; 70 THEN &quot;FAIL&quot;&#xA;ELSE &quot;UNKNOWN&quot;&#xA;ENDIF" field="Results" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="ToString([Violation_Code])" field="Violation_code1" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Trim(ToString([Violation_Description]))" field="Violation_Description" size="1000000" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([Violation_Points]) OR IsEmpty([Violation_Points]) THEN 0&#xA;ELSE ToNumber([Violation_Points])&#xA;ENDIF" field="Violation_Points" size="1000000" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([Violation_Comments]) THEN &quot;&quot; ELSE Trim([Violation_Comments]) ENDIF" field="Violations_comments_clean" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Contains(Uppercase([Violation_Description]), &quot;CRITICAL&quot;) OR&#xA;Contains(Uppercase([Violations_comments_clean]), &quot;CRITICAL&quot;) OR&#xA;Contains(Uppercase([Violation_Description]), &quot;PRIORITY&quot;) OR&#xA;Contains(Uppercase([Violation_Description]), &quot;MAJOR&quot;) OR&#xA;ToNumber([violation_points]) &gt;= 8" field="is_violation_critical" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="Contains(Uppercase([violation_description]), &quot;URGENT&quot;) OR&#xA;Contains(Uppercase([Violations_comments_clean]), &quot;URGENT&quot;) OR&#xA;Contains(Uppercase([violation_description]), &quot;IMMINENT&quot;) OR&#xA;ToNumber([violation_points]) &gt;= 10" field="is_violation_urgent" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF ToNumber([violation_points]) &gt;= 10 THEN &quot;Critical&quot;&#xA;ELSEIF ToNumber([violation_points]) &gt;= 6 THEN &quot;Serious&quot;&#xA;ELSEIF ToNumber([Violation_Points]) &gt;= 3 THEN &quot;Moderate&quot;&#xA;ELSE &quot;Minor&quot;&#xA;ENDIF" field="violation_severity" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Trim(&#xA;  ToString([Street Number]) + &quot; &quot; +&#xA;  (IF !IsEmpty([Street Name]) THEN [Street Name] + &quot; &quot; ELSE &quot;&quot; ENDIF) +&#xA;  (IF !IsEmpty([Street Direction]) THEN [Street Direction] + &quot; &quot; ELSE &quot;&quot; ENDIF) +&#xA;  (IF !IsEmpty([Street Type]) THEN [Street Type] + &quot; &quot; ELSE &quot;&quot; ENDIF) +&#xA;  (IF !IsEmpty([Street Unit]) THEN [Street Unit] ELSE &quot;&quot; ENDIF)&#xA;)" field="address" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="&quot;dallas&quot;" field="source_city" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IF !IsNull([Zip Code]) THEN &#xA;  PadLeft(ToString([Zip Code]), 5, &quot;0&quot;)&#xA;ELSE &#xA;  &quot;&quot;&#xA;ENDIF" field="zip_code" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="&quot;lCD&quot; + [inspection_id]" field="license_number" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Trim(Uppercase([Restaurant Name]))" field="dba_name" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="[dba_name]" field="aka_name" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IF ToNumber([Inspection Score]) &gt;= 90 THEN &quot;Low Risk&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &gt;= 70 THEN &quot;Medium Risk&quot;&#xA;ELSE &quot;High Risk&quot;&#xA;ENDIF" field="risk_category" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="&quot;Restaurant&quot;" field="facility_type" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="REGEX_Replace([Risk_Category], &quot; Risk&quot;, &quot;&quot;)" field="risk_category" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Inspection_ID = ToString([Temp_ID]) + "_dallas"
+Date_1 = DateTimeParse([Inspecti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Temp_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1098" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Violation_Code" />
+            <Field field="Inspection_ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="1194" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Score" selected="True" />
+            <Field field="Street Number" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Lat Long Location" selected="True" />
+            <Field field="number" selected="True" />
+            <Field field="Violation_Description" selected="True" />
+            <Field field="Violation_Detail" selected="True" />
+            <Field field="Violation_Memo" selected="True" />
+            <Field field="Violation_Points" selected="True" />
+            <Field field="Violation_Code" selected="True" />
+            <Field field="Violation_Comments" selected="True" />
+            <Field field="Inspection_ID" selected="True" />
+            <Field field="Date_1" selected="False" />
+            <Field field="Inspection_Year" selected="False" />
+            <Field field="Inspction_Month" selected="False" />
+            <Field field="Insspection_Quarter" selected="False" />
+            <Field field="Results" selected="False" />
+            <Field field="Violation_code1" selected="False" />
+            <Field field="Violations_comments_clean" selected="False" />
+            <Field field="is_violation_critical" selected="False" />
+            <Field field="is_violation_urgent" selected="False" />
+            <Field field="violation_severity" selected="False" />
+            <Field field="address" selected="False" />
+            <Field field="source_city" selected="False" />
+            <Field field="zip_code" selected="False" />
+            <Field field="license_number" selected="False" />
+            <Field field="dba_name" selected="False" />
+            <Field field="aka_name" selected="False" />
+            <Field field="risk_category" selected="False" />
+            <Field field="facility_type" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Temp_ID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Restaurant Name" size="75" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Inspection Type" size="9" source="CrossTab:Group:First:" type="String" />
+            <Field name="Inspection Date" source="CrossTab:Group:First:" type="Date" />
+            <Field name="Inspection Score" source="CrossTab:Group:First:" type="Int16" />
+            <Field name="Street Number" source="CrossTab:Group:First:" type="Int32" />
+            <Field name="Street Name" size="28" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Street Direction" size="1" source="CrossTab:Group:First:" type="String" />
+            <Field name="Street Type" size="4" source="CrossTab:Group:First:" type="String" />
+            <Field name="Street Unit" size="6" source="CrossTab:Group:First:" type="String" />
+            <Field name="Street Address" size="41" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Zip Code" source="CrossTab:Group:First:" type="Int32" />
+            <Field name="Inspection Month" size="10" source="CrossTab:Group:First:" type="String" />
+            <Field name="Inspection Year" size="6" source="CrossTab:Group:First:" type="String" />
+            <Field name="Lat Long Location" size="83" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="FileName" size="254" source="CrossTab:Group:First:" type="V_WString" />
+            <Field name="number" source="CrossTab:Group:First:" type="Byte" />
+            <Field name="Violation_Description" size="113" source="Formula: Trim(ToString([Violation_Description]))" type="V_String" />
+            <Field name="Violation_Detail" size="1127" source="CrossTab:Header:field_type:Violation Detail:First:" type="V_String" />
+            <Field name="Violation_Memo" size="1844" source="CrossTab:Header:field_type:Violation Memo:First:" type="V_String" />
+            <Field name="Violation_Points" source="Formula: IF IsNull([Violation_Points]) OR IsEmpty([Violation_Points]) THEN 0&#xA;ELSE ToNumber([Violation_Points])&#xA;ENDIF" type="Byte" />
+            <Field description="RegEx: Parsed from Violation_Description" name="Violation_Code" size="2" source="RegEx: Parsed from Violation_Description" type="String" />
+            <Field name="Violation_Comments" size="2430" source="Formula: IF (IsNull([Violation_Detail]) OR Trim([Violation_Detail]) = &quot;&quot;) AND&#xA;   (IsNull([Violation_Memo]) OR Trim([Violation_Memo]) = &quot;&quot;)&#xA;THEN &quot;&quot;&#xA;&#xA;ELSEIF (IsNull([Violation_Memo]) OR Trim([Violation_Memo]) = &quot;&quot;)&#xA;THEN Trim([Violation_Detail])&#xA;&#xA;ELSEIF (IsNull([Violation_Detail]) OR Trim([Violation_Detail]) = &quot;&quot;)&#xA;THEN Trim([Violation_Memo])&#xA;&#xA;ELSE Trim([Violation_Detail]) + &quot; &quot; + Trim([Violation_Memo])&#xA;ENDIF" type="V_String" />
+            <Field name="Inspection_ID" size="13" source="Formula: ToString([Temp_ID]) + &quot;_dallas&quot;" type="String" />
+            <Field name="Date_1" size="1073741823" source="Formula: DateTimeParse([Inspection Date], &quot;%Y-%m-%d&quot;)" type="V_WString" />
+            <Field name="Inspection_Year" size="1073741823" source="Formula: DateTimeYear([Date_1])" type="V_WString" />
+            <Field name="Inspction_Month" size="1073741823" source="Formula: DateTimeMonth([Date_1])" type="V_WString" />
+            <Field name="Insspection_Quarter" size="1073741823" source="Formula: DateTimeQuarter([Date_1])" type="V_WString" />
+            <Field name="Results" size="1073741823" source="Formula: IF IsNull([Inspection Score]) THEN &quot;UNKNOWN&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &gt;= 90 THEN &quot;PASS&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &gt;= 70 THEN &quot;PASS_CONDITIONS&quot;&#xA;ELSEIF ToNumber([Inspection Score]) &lt; 70 THEN &quot;FAIL&quot;&#xA;ELSE &quot;UNKNOWN&quot;&#xA;ENDIF" type="V_WString" />
+            <Field name="Violation_code1" size="1073741823" source="Formula: ToString([Violation_Code])" type="V_WString" />
+            <Field name="Violations_comments_clean" size="1073741823" source="Formula: IF IsNull([Violation_Comments]) THEN &quot;&quot; ELSE Trim([Violation_Comments]) ENDIF" type="V_WString" />
+            <Field name="is_violation_critical" source="Formula: Contains(Uppercase([Violation_Description]), &quot;CRITICAL&quot;) OR&#xA;Contains(Uppercase([Violations_comments_clean]), &quot;CRITICAL&quot;) OR&#xA;Contains(Uppercase([Violation_Description]), &quot;PRIORITY&quot;) OR&#xA;Contains(Uppercase([Violation_Description]), &quot;MAJOR&quot;) OR&#xA;ToNumber([violation_points]) &gt;= 8" type="Bool" />
+            <Field name="is_violation_urgent" source="Formula: Contains(Uppercase([violation_description]), &quot;URGENT&quot;) OR&#xA;Contains(Uppercase([Violations_comments_clean]), &quot;URGENT&quot;) OR&#xA;Contains(Uppercase([violation_description]), &quot;IMMINENT&quot;) OR&#xA;ToNumber([violation_points]) &gt;= 10" type="Bool" />
+            <Field name="violation_severity" size="1073741823" source="Formula: IF ToNumber([violation_points]) &gt;= 10 THEN &quot;Critical&quot;&#xA;ELSEIF ToNumber([violation_points]) &gt;= 6 THEN &quot;Serious&quot;&#xA;ELSEIF ToNumber([Violation_Points]) &gt;= 3 THEN &quot;Moderate&quot;&#xA;ELSE &quot;Minor&quot;&#xA;ENDIF" type="V_WString" />
+            <Field name="address" size="1073741823" source="Formula: Trim(&#xA;  ToString([Street Number]) + &quot; &quot; +&#xA;  (IF !IsEmpty([Street Name]) THEN [Street Name] + &quot; &quot; ELSE &quot;&quot; ENDIF) +&#xA;  (IF !IsEmpty([Street Direction]) THEN [Street Direction] + &quot; &quot; ELSE &quot;&quot; ENDIF) +&#xA;  (IF !IsEmpty([Street Type]) THEN [Street Type] + &quot; &quot; ELSE &quot;&quot; ENDIF) +&#xA;  (IF !IsEmpty([Street Unit]) THEN [Street Unit] ELSE &quot;&quot; ENDIF)&#xA;)" type="V_WString" />
+            <Field name="source_city" size="1073741823" source="Formula: &quot;dallas&quot;" type="V_WString" />
+            <Field name="zip_code" size="1073741823" source="Formula: IF !IsNull([Zip Code]) THEN &#xA;  PadLeft(ToString([Zip Code]), 5, &quot;0&quot;)&#xA;ELSE &#xA;  &quot;&quot;&#xA;ENDIF" type="V_WString" />
+            <Field name="license_number" size="1073741823" source="Formula: &quot;lCD&quot; + [inspection_id]" type="V_WString" />
+            <Field name="dba_name" size="1073741823" source="Formula: Trim(Uppercase([Restaurant Name]))" type="V_WString" />
+            <Field name="aka_name" size="1073741823" source="Formula: [dba_name]" type="V_WString" />
+            <Field name="risk_category" size="1073741823" source="Formula: REGEX_Replace([Risk_Category], &quot; Risk&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="facility_type" size="1073741823" source="Formula: &quot;Restaurant&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1386" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Inspection_ID" action="GroupBy" rename="Inspection_ID" />
+            <SummarizeField field="Violation_Code" action="Count" rename="Violation_Count" />
+            <SummarizeField field="is_violation_critical" action="Max" rename="Max_is_violation_critical" />
+            <SummarizeField field="is_violation_urgent" action="Max" rename="Max_is_violation_urgent" />
+            <SummarizeField field="Violation_Points" action="Sum" rename="Sum_Violation_Points" />
+            <SummarizeField field="Violation_Code" action="Concat" rename="Concat_Violation_Code">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+            <SummarizeField field="Violation_Description" action="Concat" rename="Concat_Violation_Description">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+            <SummarizeField field="Violation_Code" action="Mode" rename="Mode_Violation_Code" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1530" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Violation_Points] &gt;= 90 AND [Violation_Count] &gt; 3" field="high_score_violations" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="&quot;Dallas&quot;" field="City" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="&quot;Texas&quot;" field="State" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="[Results] = &quot;PASS&quot; AND [Max_is_violation_critical] = &quot;True&quot;" field="pass_with_critical" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>high_score_violations = [Sum_Violation_Points] &gt;= 90 AND [Violation_Count] &gt; 3
+C...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1842" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection Type" selected="True" rename="Inspection_Type" />
+            <SelectField field="Inspection Score" selected="True" rename="Inspection_Score" />
+            <SelectField field="FileName" selected="True" />
+            <SelectField field="Violation_Description" selected="True" rename="Violation_Desc" />
+            <SelectField field="Violation_Code" selected="True" />
+            <SelectField field="Inspection_ID" selected="True" />
+            <SelectField field="Date_1" selected="True" rename="Inspection_Date" type="Date" size="10" />
+            <SelectField field="Results" selected="True" rename="Inspection_Results" />
+            <SelectField field="Violations_comments_clean" selected="True" rename="Violation_Comments" />
+            <SelectField field="is_violation_critical" selected="True" />
+            <SelectField field="is_violation_urgent" selected="True" />
+            <SelectField field="address" selected="True" rename="Address" />
+            <SelectField field="zip_code" selected="True" rename="Zip_Code" />
+            <SelectField field="license_number" selected="True" rename="License_No" />
+            <SelectField field="dba_name" selected="True" rename="DBA_Name" />
+            <SelectField field="aka_name" selected="True" rename="AKA_Name" />
+            <SelectField field="risk_category" selected="True" rename="Risk_Category" />
+            <SelectField field="facility_type" selected="True" rename="Facility_Type" />
+            <SelectField field="Violation_Count" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Risk_Level" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1926" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_6078773b8e584db3adcb05f5e7248095~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1278" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Violation_Code</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-11-13 01:36:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2025-11-13 01:36:25</StartDate>
+              <EndDate>2025-11-13 01:36:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Violation_Code])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1338" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_227a3e3b38dc4ff0b4e6a531e317e8b4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1242" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_fd9373dffcef4de78cd7adcbe1cd7364~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1446" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Inspection_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Inspection_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Inspection_ID" selected="True" rename="Right_Inspection_ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1590" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_ca68ac015fb54fa181a58ae833dfb88c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_41b9a8cd5acd4d05a056c818fe576545~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1350" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_04384087963a4e0c9fe1ccc5b62a5674~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="798" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Violation_Description]) AND
+!IsEmpty(Trim([Violation_Description])) AND
+[Violation_Description] != ""</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Violation_Description]) AND
+!IsEmpty(Trim([Violation_Description])) AND...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+        <Position x="342" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RemoveNullRows value="True" />
+          <RemoveNullColumns value="True" />
+          <RemoveTabsLineBreaksAndDuplicates value="True" />
+          <RemoveLeadingAndTrailingWhitespace value="True" />
+          <RemoveAllWhitespaces value="False" />
+          <RemoveHTMLTags value="False" />
+          <RemoveInvisibleCharacters value="False" />
+          <Fields>
+            <Field value="Restaurant Name" selected="True" />
+            <Field value="Inspection Type" selected="True" />
+            <Field value="Inspection Date" selected="True" />
+            <Field value="Inspection Score" selected="True" />
+            <Field value="Street Number" selected="True" />
+            <Field value="Street Name" selected="True" />
+            <Field value="Street Direction" selected="True" />
+            <Field value="Street Type" selected="True" />
+            <Field value="Street Unit" selected="True" />
+            <Field value="Street Address" selected="True" />
+            <Field value="Zip Code" selected="True" />
+            <Field value="Violation Description - 1" selected="True" />
+            <Field value="Violation Points - 1" selected="True" />
+            <Field value="Violation Detail - 1" selected="True" />
+            <Field value="Violation Memo - 1" selected="True" />
+            <Field value="Violation Description - 2" selected="True" />
+            <Field value="Violation Points - 2" selected="True" />
+            <Field value="Violation Detail - 2" selected="True" />
+            <Field value="Violation Memo - 2" selected="True" />
+            <Field value="Violation Description - 3" selected="True" />
+            <Field value="Violation Points - 3" selected="True" />
+            <Field value="Violation Detail - 3" selected="True" />
+            <Field value="Violation Memo - 3" selected="True" />
+            <Field value="Violation Description - 4" selected="True" />
+            <Field value="Violation Points - 4" selected="True" />
+            <Field value="Violation Detail - 4" selected="True" />
+            <Field value="Violation Memo - 4" selected="True" />
+            <Field value="Violation Description - 5" selected="True" />
+            <Field value="Violation Points - 5" selected="True" />
+            <Field value="Violation Detail - 5" selected="True" />
+            <Field value="Violation Memo - 5" selected="True" />
+            <Field value="Violation Description - 6" selected="True" />
+            <Field value="Violation Points - 6" selected="True" />
+            <Field value="Violation Detail - 6" selected="True" />
+            <Field value="Violation Memo - 6" selected="True" />
+            <Field value="Violation Description - 7" selected="True" />
+            <Field value="Violation Points - 7" selected="True" />
+            <Field value="Violation Detail - 7" selected="True" />
+            <Field value="Violation Memo - 7" selected="True" />
+            <Field value="Violation Description - 8" selected="True" />
+            <Field value="Violation Points - 8" selected="True" />
+            <Field value="Violation Detail - 8" selected="True" />
+            <Field value="Violation Memo - 8" selected="True" />
+            <Field value="Violation Description - 9" selected="True" />
+            <Field value="Violation Points - 9" selected="True" />
+            <Field value="Violation Detail - 9" selected="True" />
+            <Field value="Violation Memo - 9" selected="True" />
+            <Field value="Violation Description - 10" selected="True" />
+            <Field value="Violation Points - 10" selected="True" />
+            <Field value="Violation Detail - 10" selected="True" />
+            <Field value="Violation Memo - 10" selected="True" />
+            <Field value="Violation Description - 11" selected="True" />
+            <Field value="Violation Points - 11" selected="True" />
+            <Field value="Violation Detail - 11" selected="True" />
+            <Field value="Violation Memo - 11" selected="True" />
+            <Field value="Violation Description - 12" selected="True" />
+            <Field value="Violation Points - 12" selected="True" />
+            <Field value="Violation Detail - 12" selected="True" />
+            <Field value="Violation Memo - 12" selected="True" />
+            <Field value="Violation Description - 13" selected="True" />
+            <Field value="Violation Points - 13" selected="True" />
+            <Field value="Violation Detail - 13" selected="True" />
+            <Field value="Violation Memo - 13" selected="True" />
+            <Field value="Violation Description - 14" selected="True" />
+            <Field value="Violation Points - 14" selected="True" />
+            <Field value="Violation Detail - 14" selected="True" />
+            <Field value="Violation Memo - 14" selected="True" />
+            <Field value="Violation Description - 15" selected="True" />
+            <Field value="Violation Points - 15" selected="True" />
+            <Field value="Violation Detail - 15" selected="True" />
+            <Field value="Violation Memo - 15" selected="True" />
+            <Field value="Violation Description - 16" selected="True" />
+            <Field value="Violation Points - 16" selected="True" />
+            <Field value="Violation Detail - 16" selected="True" />
+            <Field value="Violation Memo - 16" selected="True" />
+            <Field value="Violation Description - 17" selected="True" />
+            <Field value="Violation Points - 17" selected="True" />
+            <Field value="Violation Detail - 17" selected="True" />
+            <Field value="Violation Memo - 17" selected="True" />
+            <Field value="Violation Description - 18" selected="True" />
+            <Field value="Violation Points - 18" selected="True" />
+            <Field value="Violation Detail - 18" selected="True" />
+            <Field value="Violation Memo - 18" selected="True" />
+            <Field value="Violation Description - 19" selected="True" />
+            <Field value="Violation Points - 19" selected="True" />
+            <Field value="Violation Detail - 19" selected="True" />
+            <Field value="Violation Memo - 19" selected="True" />
+            <Field value="Violation Description - 20" selected="True" />
+            <Field value="Violation Points - 20" selected="True" />
+            <Field value="Violation Detail - 20" selected="True" />
+            <Field value="Violation  Memo - 20" selected="True" />
+            <Field value="Violation Description - 21" selected="True" />
+            <Field value="Violation Points - 21" selected="True" />
+            <Field value="Violation Detail - 21" selected="True" />
+            <Field value="Violation Memo - 21" selected="True" />
+            <Field value="Violation Description - 22" selected="True" />
+            <Field value="Violation Points - 22" selected="True" />
+            <Field value="Violation Detail - 22" selected="True" />
+            <Field value="Violation Memo - 22" selected="True" />
+            <Field value="Violation Description - 23" selected="True" />
+            <Field value="Violation Points - 23" selected="True" />
+            <Field value="Violation Detail - 23" selected="True" />
+            <Field value="Violation Memo - 23" selected="True" />
+            <Field value="Violation Description - 24" selected="True" />
+            <Field value="Violation Points - 24" selected="True" />
+            <Field value="Violation Detail - 24" selected="True" />
+            <Field value="Violation Memo - 24" selected="True" />
+            <Field value="Violation Description - 25" selected="True" />
+            <Field value="Violation Points - 25" selected="True" />
+            <Field value="Violation Detail - 25" selected="True" />
+            <Field value="Violation Memo - 25" selected="True" />
+            <Field value="Inspection Month" selected="True" />
+            <Field value="Inspection Year" selected="True" />
+            <Field value="Lat Long Location" selected="True" />
+            <Field value="FileName" selected="True" />
+            <Field value="*Unknown" selected="False" />
+          </Fields>
+          <RemoveLetters value="False" />
+          <RemoveNumbers value="False" />
+          <RemovePunctuation value="False" />
+          <Letters value="" />
+          <Numbers value="" />
+          <Punctuations value="" />
+          <Exceptions value="" />
+          <Checkbox_ReplaceStringColumns value="False" />
+          <Checkbox_ReplaceNumericColumns value="False" />
+          <radioButton_ReplaceNullwithBlanks value="True" />
+          <radioButton_ReplaceBlankswithNulls value="False" />
+          <radioButton_ReplaceNullwithZero value="True" />
+          <radioButton_ReplaceZerowithNulls value="False" />
+          <ReplaceWithBlanks value="False" />
+          <ReplaceWithZero value="False" />
+          <CheckBox_ModifyCase value="False" />
+          <ModifyCase value="none" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Zip Code]) AND
+Trim([Zip Code]) != "" AND
+Length([Zip Code]) = 5 AND
+REGEX_Match([Zip Code], "^\d{5}$")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Zip Code]) AND
+Trim([Zip Code]) != "" AND
+Length([Zip Code]) = 5 AND
+RE...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1614" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Lat Long Location</Field>
+          <RegExExpression value="\(([-+]?[0-9]*\.?[0-9]+),?\s*([-+]?[0-9]*\.?[0-9]+)\)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Lat Long Location</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Latitude" type="V_String" size="100000" />
+            <Field field="Longitude" type="V_String" size="100000" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Latitude]) THEN&#xA;    0&#xA;ELSE&#xA;    [Latitude]&#xA;ENDIF" field="Latitude" size="100000" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([Longitude]) THEN&#xA;    0&#xA;ELSE&#xA;    [Longitude]&#xA;ENDIF" field="Longitude" size="100000" type="V_String" enabled="true" />
+            <FormulaField expression="IF [risk_category] = &quot;High&quot; THEN&#xA;    1&#xA;ELSEIF [risk_category] = &quot;Medium&quot; THEN&#xA;    2&#xA;ELSEIF [risk_category] = &quot;Low&quot; THEN&#xA;    3&#xA;ELSE&#xA;    NULL()&#xA;ENDIF" field="Risk_Level" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Latitude = IF IsNull([Latitude]) THEN
+    0
+ELSE
+    [Latitude]
+ENDIF
+Longitude ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_f21e128674144d1e84e9125bb81b7446~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1470" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_21240_9a065edef9c943ebba05b1bd4359e6da_\Engine_21240_b76962c89a9b44208a32e9998cd94f3e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1973" y="281" width="154" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 76</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1998" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\rupes\Downloads\Dallas_Final_Output.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+                <SuppressBlankFile>False</SuppressBlankFile>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Dallas_Final_Output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Unique" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="64" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="True" />
+      <Destination ToolID="64" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="True" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="True" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="False" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Join" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Join" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="True" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="True" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas_Final</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="adac394a-8784-4bd6-8127-5e9518b67f75" />
+      <Telemetry>
+        <PreviousWorkflowId value="e8a2d274-a324-4705-8fa1-08a98142ec50" />
+        <OriginWorkflowId value="f3811dc8-02b5-457b-bf05-1734c3287110" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

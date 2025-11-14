@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\rupes\Downloads\Dallas_Final_Output.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>100000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas_Final_Output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_Type" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_Score" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="FileName" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Desc" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Code" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_ID" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_Date" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_Results" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Comments" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="is_violation_critical" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="is_violation_urgent" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Address" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Zip_Code" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="License_No" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="DBA_Name" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="AKA_Name" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Risk_Category" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Facility_Type" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Count" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="City" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="State" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Latitude" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Longitude" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+            <Field name="Risk_Level" size="16777216" source="File: C:\Users\rupes\Downloads\Dallas_Final_Output.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\rupes\Downloads\Chicago_Final_Output.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Chicago_Final_Output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_Date" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Code" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Zip_Code" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_Score" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_ID" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="DBA_Name" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="AKA_Name" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="License_No" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Facility_Type" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Address" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="City" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="State" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_Type" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Inspection_Results" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="FileName" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Comments" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Desc" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Risk_Level" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Risk_Category" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Latitude" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Longitude" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="is_violation_urgent" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="is_violation_critical" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+            <Field name="Violation_Count" size="1000000" source="File: C:\Users\rupes\Downloads\Chicago_Final_Output.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="270" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\rupes\AppData\Local\Temp\Alteryx\Engine_17360_379a77f4684540c88b7183334dd15d92_\Engine_17360_a74374281085418783027023eaf0058c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="401" y="197" width="157" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="426" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\rupes\Downloads\Final_Merged_Output.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+                <SuppressBlankFile>False</SuppressBlankFile>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Final_Merged_Output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Merged_Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0880f508-23e5-4ed4-829e-a81d6463a390" />
+      <Telemetry>
+        <PreviousWorkflowId value="0c650834-a153-4eaf-8481-29741f5265db" />
+        <OriginWorkflowId value="0c650834-a153-4eaf-8481-29741f5265db" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
